@@ -1,0 +1,650 @@
+<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>Elizabeth Litola Portfolio</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Elizabeth (Litola) is a UX Product Designer with a background in Psychology and Education. Case studies across health tech, finance, real estate and fashion.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="author" content="Elizabeth (Litola)">
+<meta name="theme-color" content="#0a0a0c">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Elizabeth (Litola)">
+<meta property="og:title" content="Elizabeth (Litola) | UX Product Designer">
+<meta property="og:description" content="Case studies across health tech, finance, real estate and fashion, from research and workshops to shipped UI.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@bylitola">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"Person","@id":"#elizabeth","name":"Elizabeth","alternateName":["Litola","bylitola"],"jobTitle":"UX Product Designer","description":"UX Product Designer with a background in Psychology and Education.","knowsAbout":["Product design","UX design","UX research","UI design","Design systems","Accessibility","Health tech","Finance","Real estate","E-commerce"],"sameAs":["https://www.linkedin.com/in/elizabeth-o-a770a9210/","https://x.com/bylitola"]},{"@type":"WebSite","name":"Elizabeth (Litola) | UX Product Designer","author":{"@id":"#elizabeth"}},{"@type":"ItemList","name":"Case studies","itemListElement":[{"@type":"ListItem","position":1,"name":"Cared4: NHS feedback tool for children and young people"},{"@type":"ListItem","position":2,"name":"UK Pensions Group: retirement journeys"},{"@type":"ListItem","position":3,"name":"Leanin: NHS metabolic study web app"},{"@type":"ListItem","position":4,"name":"Monki: PDP and PLP redesign"},{"@type":"ListItem","position":5,"name":"Liontrust: reskin and information architecture"},{"@type":"ListItem","position":6,"name":"UK Home Developer: home customisation"}]}]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600&family=Geist+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap">
+<style>
+/* Layout: dark editorial. A project reel opens the page over her own glow background; case studies are long reads with a sticky chapter rail and her real figures. */
+:root{
+  --bg:#0a0a0c; --surface:#131318; --surface-2:#1a1a21; --line:#26262e; --line-2:#34343f;
+  --fg:#f1f0f4; --muted:#a09fad; --accent:#c9b8ff; --accent-ink:#17102e;
+  --display:"Instrument Serif","Iowan Old Style",Georgia,serif;
+  --body:"Geist",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:"Geist Mono",ui-monospace,Menlo,monospace;
+  color-scheme:dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:84px}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 17px/1.7 var(--body);-webkit-font-smoothing:antialiased;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:60;background:var(--bg)}
+a{color:inherit;text-decoration:none}
+img,video{max-width:100%;display:block}
+:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:6px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--accent);color:var(--accent-ink);padding:8px 14px;border-radius:8px;z-index:90}
+.skip:focus{left:8px}
+.wrap{max-width:1200px;margin:0 auto}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:color-mix(in srgb,var(--bg) 80%,transparent);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-bottom:1px solid var(--line);margin:0 calc(50% - 50vw);padding:0 max(16px,env(safe-area-inset-left,0px))}
+header .wrap{display:flex;justify-content:space-between;align-items:center;height:64px}
+.logo{display:inline-flex;align-items:center;color:var(--fg)}
+.logo .mark{height:26px;width:auto;display:block;overflow:visible}
+.logo:hover .mark g:nth-of-type(2){filter:drop-shadow(0 0 7px rgba(253,239,169,.55))}
+.flogo .mark{height:34px}
+
+nav{display:flex;gap:28px;font-size:14px;color:var(--muted)}
+nav a{position:relative;padding:6px 0;transition:color .2s}
+nav a:hover,nav a[aria-current=page]{color:var(--fg)}
+nav a::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--accent);transform:scaleX(0);transform-origin:left;transition:transform .35s}
+nav a:hover::after,nav a[aria-current=page]::after{transform:scaleX(1)}
+#bar{position:fixed;top:env(safe-area-inset-top,0px);left:0;height:2px;width:0;background:var(--accent);z-index:80}
+.eyebrow{font:500 12px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+h1,h2,h3{font-family:var(--display);font-weight:400;letter-spacing:-.01em;margin:0;text-wrap:balance}
+h1{font-size:clamp(46px,8vw,116px);line-height:.98}
+h1 em,h2 em{font-style:italic;color:var(--accent)}
+h2{font-size:clamp(32px,4.4vw,58px);line-height:1.04}
+h3{font-size:clamp(25px,2.8vw,36px);line-height:1.12}
+p{margin:0 0 1.1em;max-width:68ch}
+.lead{font-size:clamp(18px,2vw,23px);color:var(--muted);max-width:56ch;line-height:1.55}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:13px 24px;border:1px solid var(--fg);border-radius:999px;font:500 14px var(--body);color:var(--fg);background:transparent;cursor:pointer;transition:background .25s,color .25s,border-color .25s}
+.btn:hover{background:var(--fg);color:var(--bg)}
+.btn.fill{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.btn.fill:hover{background:var(--fg);border-color:var(--fg);color:var(--bg)}
+.btns{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.mail{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.mail a{font:400 clamp(20px,3vw,32px) var(--display);color:var(--accent);text-decoration:underline;text-underline-offset:6px;text-decoration-thickness:1px;word-break:break-all}
+.mail a:hover{color:var(--fg)}
+.rec{margin:0;padding:clamp(26px,4vw,48px);background:var(--surface);border:1px solid var(--line);border-radius:24px;max-width:900px}
+.rec blockquote{margin:0}.rec blockquote p{font-size:clamp(17px,1.6vw,20px);line-height:1.65;color:var(--fg);margin:0 0 1.1em}
+.rec figcaption{display:flex;gap:16px;align-items:center;margin-top:28px;padding-top:24px;border-top:1px solid var(--line)}
+.rec figcaption img{width:56px;height:56px;border-radius:50%;object-fit:cover;flex:none}
+.rec figcaption span{display:grid;gap:2px}.rec figcaption b{font-weight:500}.rec figcaption small{color:var(--muted);font-size:13px;line-height:1.5}
+.rec-more{margin-top:28px;display:grid;gap:14px}.rec-more p{margin:0;color:var(--muted)}
+.hero-top{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:clamp(28px,6vw,96px);align-items:center}
+.hero-copy{display:grid;gap:26px;justify-items:start}
+.phone{position:relative;width:clamp(210px,22vw,285px);justify-self:center;transform:rotate(3deg);animation:rise .9s both,float 8s ease-in-out 1.2s infinite}
+.phone::before{content:"";position:absolute;z-index:-1;inset:-12% -40%;background:radial-gradient(closest-side,rgba(201,184,255,.30),transparent 72%);pointer-events:none}
+.phone img{display:block;width:100%;height:auto;filter:drop-shadow(0 40px 50px rgba(0,0,0,.65))}
+@keyframes float{0%,100%{transform:rotate(3deg) translateY(0)}50%{transform:rotate(2deg) translateY(-12px)}}
+@media(max-width:860px){.hero-top{grid-template-columns:1fr;justify-items:center}.hero-copy{justify-items:start;width:100%}.phone{width:210px;margin-top:12px}}
+.totop{position:fixed;right:20px;bottom:20px;z-index:40;width:46px;height:46px;border-radius:50%;border:1px solid var(--line);background:rgba(20,20,24,.85);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);color:var(--fg);font:400 20px var(--body);cursor:pointer;opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity .3s,transform .3s,background .25s,color .25s}
+.totop.on{opacity:1;transform:none;pointer-events:auto}
+.totop:hover{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.totop:focus-visible{outline:2px solid var(--accent);outline-offset:3px}
+.btn.sm{padding:8px 16px;font-size:13px}
+[hidden]{display:none!important}
+.rise{animation:rise .9s cubic-bezier(.2,.7,.2,1) both}
+@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+.rv{transform:translateY(14px);transition:transform .8s cubic-bezier(.2,.7,.2,1)}.rv.in{transform:none}
+/* hero */
+.hero{position:relative;margin:0 calc(50% - 50vw);padding:0 max(16px,env(safe-area-inset-left,0px));overflow:hidden}
+.hero::before{content:"";position:absolute;inset:0;background:url(img/5Z06s7VZs1xDwL9kje3a7Gp0.webp) center top/cover no-repeat;opacity:.55;mask-image:linear-gradient(#000 40%,transparent);-webkit-mask-image:linear-gradient(#000 40%,transparent)}
+.hero .wrap{position:relative;padding:76px 0 56px;display:grid;gap:26px}
+.reel{position:relative;display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:36px;align-items:center;min-height:520px;margin-top:28px;background:color-mix(in srgb,var(--surface) 80%,transparent);border:1px solid var(--line);border-radius:28px;padding:36px;overflow:hidden;backdrop-filter:blur(6px)}
+.rtxt{position:relative;min-height:280px}
+.rs{position:absolute;inset:0;display:flex;flex-direction:column;justify-content:center;gap:14px;opacity:0;transform:translateY(16px);transition:opacity .7s,transform .7s;pointer-events:none}
+.rs.on{opacity:1;transform:none;pointer-events:auto}
+.rs h2{font-size:clamp(40px,5vw,72px)}
+.rs p{color:var(--muted);margin:0;max-width:34ch}
+.rs .more{margin-top:8px;width:max-content}
+.rimg{position:relative;aspect-ratio:4/3;border-radius:20px;overflow:hidden}
+.ri{position:absolute;inset:0;opacity:0;transition:opacity .9s;background:var(--bg-c)}
+.ri.on{opacity:1}
+.ri img{width:100%;height:100%;object-fit:contain;transform:scale(1.07);transition:transform 6.5s cubic-bezier(.2,.6,.2,1)}
+.ri.on img{transform:scale(1)}
+.ri.cover img{object-fit:cover}
+.rctl{grid-column:1/-1;display:flex;gap:12px;align-items:center}
+.segs{display:flex;gap:6px;flex:1}
+.seg{flex:1;height:24px;display:flex;align-items:center;background:none;border:0;padding:0;cursor:pointer}
+.seg i{display:block;width:100%;height:3px;border-radius:2px;background:rgba(255,255,255,.16);position:relative;overflow:hidden}
+.seg i::after{content:"";position:absolute;inset:0;background:var(--fg);transform:scaleX(var(--p,0));transform-origin:left}
+.pp{width:38px;height:38px;border-radius:50%;border:1px solid var(--line-2);background:transparent;color:var(--fg);cursor:pointer;font-size:11px;display:grid;place-items:center}
+.pp:hover{background:var(--fg);color:var(--bg)}
+/* proof */
+.proof{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));border-block:1px solid var(--line);margin-top:24px}
+.proof div{padding:28px 24px 28px 0}
+.proof b{display:block;font:400 clamp(40px,5vw,64px)/1 var(--display)}
+.proof span{display:block;color:var(--muted);font-size:14px;margin-top:8px;max-width:28ch;line-height:1.5}
+section{padding:80px 0}
+.sec-h{display:flex;justify-content:space-between;align-items:end;gap:20px;flex-wrap:wrap;margin-bottom:44px}
+.mono{font:500 12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+/* work */
+.work{display:grid;gap:88px}
+.pc{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:48px;align-items:center}
+.pc:nth-child(even){grid-template-columns:minmax(0,1fr) minmax(0,1.3fr)}.pc:nth-child(even) .pv{order:2}
+.pv{display:block;aspect-ratio:4/3;border-radius:22px;overflow:hidden;background:var(--bg-c);border:1px solid var(--line);position:relative}
+.pv img{width:100%;height:100%;object-fit:contain;transition:transform .9s cubic-bezier(.2,.7,.2,1)}
+.pv.cover img{object-fit:cover;object-position:top}
+.pc:hover .pv img{transform:scale(1.045)}
+.idx{font:500 12px var(--mono);color:var(--muted);margin-right:10px}
+.pi h3{margin:12px 0 14px;font-size:clamp(30px,3.4vw,46px)}
+.pi p{color:var(--muted)}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0 26px;padding:0;list-style:none}
+.chips li{border:1px solid var(--line-2);border-radius:999px;padding:4px 13px;font-size:13px;color:var(--muted)}
+.more{display:inline-flex;gap:10px;align-items:center;font-weight:500;border-bottom:1px solid var(--accent);padding-bottom:3px}
+.more span{transition:transform .3s}.pc:hover .more span,.more:hover span{transform:translateX(6px)}
+/* process + motion */
+.proc{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:56px;align-items:center}
+.proc img{border-radius:20px;border:1px solid var(--line);width:100%}
+.stages{display:flex;flex-wrap:wrap;gap:8px;margin:22px 0 0;padding:0;list-style:none}
+.stages li{border:1px solid var(--line-2);border-radius:999px;padding:6px 16px;font:500 12px var(--mono);letter-spacing:.1em;text-transform:uppercase}
+.motion{display:grid;gap:18px}
+.vid{border-radius:22px;overflow:hidden;border:1px solid var(--line);background:#fff;position:relative}
+.vid video{width:100%;height:auto}
+.vcap{color:var(--muted);font-size:14px;margin:0}
+.three{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))}
+.box{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:32px}
+.box h3{font-size:28px;margin-bottom:12px}.box p{color:var(--muted);margin:0}
+.vimeo{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:26px 30px;border:1px solid var(--line);border-radius:20px;background:var(--surface);transition:border-color .3s,transform .3s}
+.vimeo:hover{border-color:var(--accent);transform:translateY(-3px)}
+.vimeo h3{font-size:26px;margin:6px 0 0}
+.vimeo .ar{font-size:26px;transition:transform .3s}.vimeo:hover .ar{transform:translate(4px,-4px)}
+/* about */
+.about{display:grid;gap:64px;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);align-items:start}
+.media{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(min(100%,220px),1fr))}
+.mc{display:block;border:1px solid var(--line);border-radius:20px;overflow:hidden;background:var(--surface);transition:transform .35s,border-color .3s}
+a.mc:hover{transform:translateY(-4px);border-color:var(--accent)}
+.mc img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.mc div{padding:16px 18px 20px}
+.mc small{display:block;font:500 11px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-bottom:6px}
+.mc b{font-weight:500;line-height:1.35;display:block}
+.apps{display:flex;gap:14px;align-items:center;flex-wrap:wrap}
+.apps span{display:flex;gap:10px;align-items:center;border:1px solid var(--line);border-radius:999px;padding:8px 16px 8px 10px;color:var(--muted);font-size:14px}
+.apps img{width:26px;height:26px;border-radius:7px;object-fit:cover}
+/* case study */
+.back{font-size:14px;color:var(--muted);display:inline-block;margin:36px 0 8px}.back:hover{color:var(--fg)}
+.cs-head{padding:20px 0 40px;display:grid;gap:22px}
+.cs-hero{border-radius:26px;overflow:hidden;background:var(--bg-c);border:1px solid var(--line);aspect-ratio:16/8}
+.cs-hero img{width:100%;height:100%;object-fit:contain}.cs-hero.cover img{object-fit:cover;object-position:top}
+.glance{display:grid;gap:0;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid var(--line);border-radius:22px;margin-top:28px;background:var(--surface);overflow:hidden}
+.glance div{padding:28px;border-right:1px solid var(--line)}.glance div:last-child{border-right:0}
+.glance h4{margin:0 0 10px;font:500 12px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.glance p{margin:0;font-size:16px;line-height:1.6}
+.cs{display:grid;grid-template-columns:230px minmax(0,1fr);gap:64px;margin-top:64px;align-items:start}
+.rail{position:sticky;top:96px;display:grid;gap:26px}
+.facts{margin:0;border-top:1px solid var(--line)}
+.facts dt{font:500 12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--accent);margin-top:16px}
+.facts dd{margin:4px 0 0;font-size:15px;line-height:1.5}
+.toc{display:grid;gap:2px;padding:0;margin:0;list-style:none;border-top:1px solid var(--line);padding-top:14px}
+.toc a{display:flex;gap:10px;padding:7px 0;color:var(--muted);font-size:14px;transition:color .2s}
+.toc a i{font:500 11px var(--mono);font-style:normal;opacity:.7;padding-top:2px}
+.toc a:hover,.toc a.on{color:var(--fg)}
+.toc a.on{color:var(--accent)}
+.chap{padding:56px 0;border-top:1px solid var(--line);display:grid;gap:0}
+.chap:first-child{border-top:0;padding-top:0}
+.chap>h2{margin-bottom:28px}
+.chap>h2 small{display:block;font:500 12px var(--mono);letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin-bottom:12px}
+.chap h3{font-size:clamp(24px,2.6vw,32px);margin:34px 0 14px}
+.chap h3:first-of-type{margin-top:0}
+.chap h4{margin:26px 0 8px;font:500 12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.chap ul{margin:0 0 1.2em;padding-left:1.15em;color:#c8c7d2;max-width:68ch}
+.chap li{margin-bottom:7px}.chap li ul{margin:7px 0 0}
+.chap p{color:#d9d8e1}
+.pull{border-left:2px solid var(--accent);padding:6px 0 6px 24px;margin:8px 0 26px;font:italic 400 clamp(24px,3vw,34px)/1.28 var(--display);max-width:32ch}
+.pull cite{display:block;font:500 12px var(--mono);letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-style:normal;margin-top:12px}
+figure{margin:26px 0;min-width:0}
+.fig{display:block;width:100%;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:#fff;cursor:zoom-in;padding:0;transition:border-color .3s}
+.fig.dk{background:var(--surface)}
+.fig:hover{border-color:var(--accent)}
+.fig img{width:100%;height:auto;transition:transform .6s}
+.fig:hover img{transform:scale(1.012)}
+.fig.tall{max-width:520px}
+figcaption{font-size:13px;color:var(--muted);margin-top:10px;line-height:1.5;max-width:68ch}
+.gal{display:grid;gap:18px;grid-template-columns:repeat(2,minmax(0,1fr));margin:26px 0;align-items:start}
+.gal figure{margin:0}.gal .span{grid-column:1/-1}
+.gal.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.live{display:inline-flex;gap:8px;margin:6px 0 20px;border-bottom:1px solid var(--accent);padding-bottom:2px;font-weight:500}
+.next{display:grid;gap:8px;margin-top:56px;padding:40px;border:1px solid var(--line);border-radius:24px;background:var(--surface);transition:border-color .3s,transform .3s}
+.next:hover{border-color:var(--accent);transform:translateY(-3px)}
+.next h3{font-size:clamp(32px,4vw,52px)}
+.cta{padding:100px 0 60px;display:grid;gap:26px;justify-items:start}
+.cta h2{font-size:clamp(38px,6vw,84px);max-width:15ch}
+footer{border-top:1px solid var(--line);padding:36px 0 48px;margin-top:24px}
+footer .wrap{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;align-items:center;color:var(--muted);font-size:14px}
+footer .l{display:flex;gap:22px;flex-wrap:wrap}footer a:hover{color:var(--fg)}
+/* lightbox */
+#lb{position:fixed;inset:0;z-index:100;background:rgba(6,6,8,.94);display:none;align-items:center;justify-content:center;padding:max(24px,env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) max(24px,env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));flex-direction:column;gap:14px}
+#lb.on{display:flex}
+#lb img{max-width:100%;max-height:calc(100% - 70px);object-fit:contain;border-radius:10px;background:#fff}
+#lb p{margin:0;color:var(--muted);font-size:14px;text-align:center;max-width:70ch}
+#lb button{position:absolute;background:var(--surface-2);border:1px solid var(--line-2);color:var(--fg);width:44px;height:44px;border-radius:50%;cursor:pointer;font-size:18px}
+#lb button:hover{background:var(--fg);color:var(--bg)}
+#lb .x{top:max(16px,env(safe-area-inset-top,0px));right:max(16px,env(safe-area-inset-right,0px))}
+#lb .pv2{left:max(12px,env(safe-area-inset-left,0px));top:50%}#lb .nx{right:max(12px,env(safe-area-inset-right,0px));top:50%}
+@media(max-width:900px){
+  .reel{grid-template-columns:minmax(0,1fr);padding:22px;min-height:0;gap:22px}.rtxt{min-height:230px;order:2}.rimg{order:1}
+  .pc,.pc:nth-child(even){grid-template-columns:minmax(0,1fr);gap:24px}.pc:nth-child(even) .pv{order:0}
+  .proc,.about{grid-template-columns:minmax(0,1fr);gap:36px}
+  .cs{grid-template-columns:minmax(0,1fr);gap:30px}.rail{position:static}.toc{display:none}
+  .glance{grid-template-columns:minmax(0,1fr)}.glance div{border-right:0;border-bottom:1px solid var(--line)}.glance div:last-child{border-bottom:0}
+  .gal,.gal.g3{grid-template-columns:minmax(0,1fr)}.cs-hero{aspect-ratio:4/3}
+  nav{gap:18px}.hero .wrap{padding-top:44px}.next{padding:26px}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}.rv{transform:none}.ri img{transform:none}}
+</style>
+
+<div id="bar" aria-hidden="true"></div>
+<a class="skip" href="#main">Skip to content</a>
+<header><div class="wrap">
+  <a class="logo" href="#top" aria-label="LITOLA, home"><svg class="mark" xmlns="http://www.w3.org/2000/svg" viewBox="-6 -8 512 132" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="butt"><path d="M3.5 0V96.5H50 M87.5 0V100 M123 3.5H187M155 3.5V100 M334.5 0V96.5H381" stroke-linejoin="miter"/><path d="M421 100L457 0L493 100M433.6 66H480.4" stroke-linejoin="bevel"/></g><g fill="none" stroke="#FDEFA9" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"><path d="M239 100V92C239 84 209 76 209 46A46 46 0 1 1 301 46C301 76 271 84 271 92V100Z" fill="#FDEFA9" fill-opacity="1"/><path d="M247 92V62A8 8 0 0 1 263 62V92" stroke="#2a2410" stroke-width="4.9"/><path d="M240 107H270M246 114H264"/></g></svg></a>
+  <nav aria-label="Main"><a href="#top" data-n="home">Home</a><a href="#work" data-n="work">Work</a><a href="#about" data-n="about">About</a></nav>
+</div></header>
+<main id="main"></main>
+<footer><div class="wrap">
+  <span class="logo flogo" role="img" aria-label="LITOLA"><svg class="mark" xmlns="http://www.w3.org/2000/svg" viewBox="-6 -8 512 132" aria-hidden="true" focusable="false"><g fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="butt"><path d="M3.5 0V96.5H50 M87.5 0V100 M123 3.5H187M155 3.5V100 M334.5 0V96.5H381" stroke-linejoin="miter"/><path d="M421 100L457 0L493 100M433.6 66H480.4" stroke-linejoin="bevel"/></g><g fill="none" stroke="#FDEFA9" stroke-width="7" stroke-linejoin="round" stroke-linecap="round"><path d="M239 100V92C239 84 209 76 209 46A46 46 0 1 1 301 46C301 76 271 84 271 92V100Z" fill="#FDEFA9" fill-opacity="1"/><path d="M247 92V62A8 8 0 0 1 263 62V92" stroke="#2a2410" stroke-width="4.9"/><path d="M240 107H270M246 114H264"/></g></svg></span><span>© <span id="yr"></span> Litola. All rights reserved.</span>
+  <div class="l">
+    <a href="https://www.linkedin.com/in/elizabeth-o-a770a9210/" target="_blank" rel="noopener noreferrer" aria-label="Elizabeth on LinkedIn (opens in a new tab)">LinkedIn</a>
+    <a href="https://x.com/bylitola" target="_blank" rel="noopener noreferrer" aria-label="@bylitola on X (opens in a new tab)">X</a>
+    <a href="#top" data-top>Back to top ↑</a>
+  </div>
+</div></footer>
+<div id="lb" role="dialog" aria-modal="true" aria-label="Image viewer"><button class="x" aria-label="Close">✕</button><button class="pv2" aria-label="Previous image">←</button><img alt=""><p></p><button class="nx" aria-label="Next image">→</button></div>
+
+<script>
+var I=function(id){return "img/"+id+".webp"};
+/* ---------- content (from the live portfolio; typos fixed) ---------- */
+var P=[
+{id:"cared4",t:"Cared4",c:"Health tech",
+ hero:"kCg2ubdiBDbxHoW4Ok9ScaPR65s",bg:"#588083",cover:1,
+ d:"A feedback tool that gives children and young people in NHS inpatient wards a way to share their experiences.",
+ line:"A feedback tool for children and young people in NHS inpatient wards",
+ tags:["NHS","Workshops","UX research","UI"],type:"Feedback tool, piloted across 12 wards",role:"UX Researcher, UX Designer, UI Designer",
+ meta:"Cared4 case study: a feedback tool for children and young people in NHS inpatient wards, designed through research, workshops and a 12-ward pilot.",
+ g:["Children and young people (CYP) in inpatient units felt unsupported and unheard, and needed senior staff to help improve their ward experience.","I researched existing inpatient wards, ran 4 stakeholder workshops, and held fortnightly workshops with paid CYP volunteers over 6 months. The pilot then ran for 2 months.","Highly regarded by commissioners, parents, the client and CYP. A further phase is planned."],
+ ch:[
+ ["Discover","Understanding the problem",[
+  ["h3","Background"],
+  ["p","An NHS trust was commissioned to work with our design agency to create a feedback tool. Children and young people (CYP) would use it to share their feedback, and commissioners would be able to see their responses. It would be piloted on 12 wards across England and overseen by senior and regional commissioners, who would use a heatmap to spot areas of concern."],
+    ["h3","The problem"],
+  ["quote","CYP in inpatient units experience a lack of support, feel unheard, and need more support from senior staff to improve their experience on the ward."],
+  ["h3","Hypothesis"],
+  ["p","A feedback tool built for a wide range of CYP, including those with special needs, would help them feel cared for and heard. CYP would scan a QR code on a poster to reach the platform, and could use it freely if they wished."],
+  ["p","Commissioners would also have their own platform, where they could sign in to view the feedback CYP gave online."]]],
+ ["Define","Listening before designing",[
+  ["h3","Process overview"],
+  ["p","I started by researching existing CYP inpatient wards and their experiences. I then facilitated 4 workshops with admins, clinicians, NHS regional commissioners and parents, to understand each group’s pain points and how the needs of CYP could be met alongside them."],
+  ["p","I worked with another CYP group to recruit paid volunteers, and facilitated workshops with them every fortnight for 6 months to understand their needs and pain points."],
+  ["gal",[["4Rxe0Fu6LCwDn5TVqgJLzFcJ4o","Fig 1. A poster I designed to recruit the CYP help group","tall"],["Pn4P6FUqkVXoqr0ALZZvFStOiE","Fig 2. Workshop boards with clinicians, NHS commissioners and parents, facilitated by me"],["aarrhhyShgRSL3XPjfldUUjZpFY","Fig 3. Workshop boards with CYP, facilitated by me every fortnight","span"]]],
+  ["h3","Insights from the workshops"],
+  ["h4","CYP"],["ul",["It needs to be accessible to different users","Different languages should be available","The language needs to be simple and easy to read","CYP should be able to access it at any time","The tool should not be anonymous"]],
+  ["h4","Clinicians and commissioners"],["ul",["Responses should not include free text, to safeguard CYP","Multiple choice is the best alternative","We need to think about the feedback loop between CYP and commissioners","It should be online only, so answers stay confidential and can’t be read by others, which could bias genuine responses","Only one CYP should be able to use it at a time, and answers should save automatically","The tool should be anonymous","Questions need to be simple and address themes such as safety, autonomy and support"]],
+  ["h4","Parents"],["ul",["The safeguarding of CYP must be ensured","Parents would also like to give feedback, which could help commissioners spot trends and similarities across responses"]],
+  ["h3","Where the groups disagreed"],
+  ["p","Not every insight pointed the same way. CYP wanted the tool not to be anonymous, while clinicians and commissioners wanted it anonymous. In the end, confidentiality had to come first, so the tool was designed to be anonymous."]]],
+ ["Ideate","From insight to flow",[
+  ["fig","ZPp2dzShaFEQAfp3O1RwD4v3uh0","Workshop insights board","tall"],
+  ["gal",[["Oyr5htKE5bA3PlXsSbCzFwW0","Fig 4. User flow example of the CYP platform","span"],["oGD5w8jtFt9dn8HC23p36ap8vo","Fig 5. Analysing the insights from the workshops"],["3rN1JOGhEJyxO2yU4HdBYL7PYE","Fig 6. Analysing the insights from the workshops"]]]]],
+ ["Deliver","The solution",[
+  ["p","Below are the final designs for the CYP and commissioner platforms, which were used in a 2-month pilot."],
+  ["p","Once the designs were done, the client asked for some changes to the designs and questions, based on feedback they received from parents. Commissioners were also given brochures to guide them on how to use the data."],
+  ["gal",[["kCg2ubdiBDbxHoW4Ok9ScaPR65s","Fig 7. CYP final designs in mobile, showing the themes, questions and avatar personalisation features","span"],["83deY3S4btP2Jlv6uJAlqfn0","Fig 8. CYP final designs in tablet form, showing the menu options"],["fYh75SwQO63ZAMMo875tHiHreaM","Fig 9. Example of the questions CYP would be able to answer within the feedback tool"],["sZ8Fub6eF9xqMgBo1VRYOPOe6k","Fig 10. Commissioner’s platform showing the heatmap of England and the rating average of each region provided by CYP and parents","span"],["OGIpx9llvc3EI35wUpEabshS74","Fig 11. Commissioner’s platform showing dates that commissioners could select to see data between"],["Jf1RptLIJMdQltvbSpGo5GGFVLE","Fig 12. Commissioner’s platform showing the table view of the heatmap and the demographic questions answered by CYP and parents"],["hKGm2bTDFqTmxVOkbQC7C2jDc3Y","Fig 13. Style guide for Cared4","tall"]]]]],
+ ["Iterate","Outcome and reflections",[
+  ["h3","Outcome"],
+  ["p","Once design was complete, we ran the pilot and gathered further feedback on both platforms."],
+  ["h4","What worked"],
+  ["ul",["The tool was easy to use for both commissioners and CYP. CYP enjoyed features such as the theme modes, personalised avatars and colours, and being able to add sounds.","Commissioners found it simple to log in and see the feedback that CYP and parents gave. Senior commissioners could view all wards, while regional commissioners could view one or a few."]],
+  ["h4","What to improve"],
+  ["ul",["In some wards, the posters CYP scanned to access the platform weren’t placed in the best spots.","Some posters also arrived late, which delayed feedback and frustrated the clinical staff who had to distribute them.","The feedback loop was a problem for commissioners, who were unsure what to do if they saw worrying stats. We agreed that user testing with commissioners would need more budget in the next phase."]],
+  ["h3","Conclusion"],
+  ["p","Overall, this project was a great success and highly regarded by commissioners, parents, the client and CYP. We received lots of positive feedback after presenting the designs to stakeholders across the NHS, and the project is looking to have another phase to develop the existing features."],
+  ["h3","Reflections and key learnings"],
+  ["p","This was one of my favourite projects, because I got to work with a large group of people and turn their findings into design solutions. With so many different voices, I sometimes felt torn about who to listen to and what to prioritise. I like to zoom out and focus on the bigger picture, which helped me work out which features and insights were high priority and would make the tool reusable, and which were nice to have but not necessary within the budget."]]]
+ ]},
+
+{id:"uk-pensions-group",t:"UK Pensions Group",c:"Finance",
+ hero:"uynAsOc02goKF9jRKqeoc2TfK0",bg:"#4c6971",
+ d:"A payments journey for customers looking to retire, turning fragmented journeys into a simpler, personalised path.",
+ line:"A payments journey for customers looking to retire",
+ tags:["Journeys","Design system","Mobile","User testing"],type:"Retirement onboarding and payments journeys",role:"Product Designer",
+ meta:"UK Pensions Group case study: consolidating five fragmented retirement journeys into one simpler experience. Winner of a team-nominated award for decoding complexity and delivering excellent work well within budget.",
+ g:["The existing journeys were isolated and fragmented, so users had to repeat the same steps to reach where they wanted to go.","Competitor research, stakeholder workshops to map and connect five journeys, and iterating on the portfolio page after user testing.","My team nominated me for an award, which I won, for decoding complexity and delivering excellent work well within budget."],
+ ch:[
+ ["Discover","Fragmented journeys",[
+  ["h3","Background"],
+  ["p","I had previously designed the onboarding journey for customers starting their retirement. The client then asked us to expand the Digital Retirement experience with new user journeys, more flexible content and more personalised retirement pathways."],
+  ["p","These journeys were isolated and fragmented, so users had to repeat the same steps to reach where they wanted to go. For this phase, it was key to bring them together in a clean, seamless way."],
+  ["h3","Hypothesis"],
+  ["p","Simplifying the journey structure, clarifying decision pathways and consolidating the educational content would improve the experience and completion rates in retirement onboarding."],
+  ["h3","Research"],
+  ["p","I researched competitors to see how other brands consolidate multiple journeys. Our journey would involve many steps, so it was key to turn complex, fragmented journeys into a simpler one that users could navigate easily."],
+  ["fig","fQKFcvGzFm0Yyb0zcbQh7y30Tw","Fig 1. Competitor research of methods to show a large number of steps in a journey"]]],
+ ["Define","Mapping five journeys",[
+  ["p","With the research done, I started to define the areas of focus and how the user journeys would be configured."],
+  ["h3","Workshops and conversations with stakeholders"],
+  ["p","After a series of workshops with the client, I mapped the key user journeys, worked out how they connected, and explored ways to streamline and unify them."],
+  ["p","A core challenge was designing for flexibility. Several screens needed to appear in more than one journey, and the user’s choices decided where they went next. Users could also enter from different starting points, so the journeys weren’t linear. Many screens were reused, but their progress indicators and step trackers had to adapt to where the user was in the journey."],
+  ["h3","Key challenges"],
+  ["ul",["Increasing conversion, particularly on mobile","Making sure the portfolios could show higher and lower risks visually","Reusing existing screens for the new flow rather than designing new ones","Reducing drop-off, so more users sign up to request a call for advice"]],
+  ["p","Waterfront is the existing programme and would still be part of the new journey. The new journeys were:"],
+  ["ul",["Retirement Income Advice (RIA), an advised journey","Non-Advised Journey (NAD), with a second part depending on whether users were ready to take action","Waterfront Saving (NAD)","Waterfront Saving Advised","Waterfront Transfer In Advised"]],
+  ["fig","XthSxMb61j813MuIICrWtmSIPM","Fig 2. Miro board screenshot of some of the journeys mapped out"]]],
+ ["Ideate","Testing the portfolio page",[
+  ["h3","Portfolio risk designs"],
+  ["p","By this stage I had defined the end-to-end flows and structured the journeys so the development team could clearly follow and build them. I then shifted focus to reusing existing screens and components where possible, and refining the portfolio page based on what we learned in user testing."],
+  ["p","Feedback from the previous journey and user testing:"],
+  ["quote","The portfolio page design is not bad, but it would be nice if there was a way to see the key information on the same page, rather than being taken to a separate page.","User testing"],
+  ["p","The new iterations therefore use a dropdown to keep each portfolio’s key information on the same page. I also added more visual representations of each portfolio’s risk, to help users decide without feeling overwhelmed."],
+  ["gal",[["0WyuckLrIBSaqcgRVeb2FMBHis","Fig 3. Two new iterations of the portfolio page","span"],["d0qOEFbbHryThxLYhPACQ9cAm8","Fig 3 (continued). Two new iterations of the portfolio page"],["WoR3OCStoy2SJC3VajYVrFzAVA","Fig 3 (continued). Two new iterations of the portfolio page"]]],
+  ["h3","Journey progress differences"],
+  ["p","Users often started one journey and then needed to switch to another with more or fewer steps. The concern was that someone might think they had 5 steps, for example, and then find they had 10."],
+  ["p","Some journeys were also long, with more than ten steps, so we had to work out how to design and build a journey that could hold that many. We added a redirect screen so users always understood where they were."],
+  ["fig","eRazSrBj0hP27mUVDqhwStqH88I","Fig 4. Wireframes highlighting journey transitions"]]],
+ ["Deliver","The solution",[
+  ["p","Below are key pages from the completed UI designs. They stay within the client’s design system, with a few added components such as the progress bar and numbered steps."],
+  ["p","The client chose to show portfolio risk in dropdowns rather than the speedometer design, so every portfolio had equal weight with less emphasis on hierarchy. They also asked for a space to drop in an image, for one of their business requirements for the portfolio, which they could change in Content Hub."],
+  ["fig","glLa3dlf1s3SsHxMY91KiPpCBY","Fig 5. UI designs, desktop and mobile"]]],
+ ["Iterate","Reflections",[
+  ["p","Overall, this was an exciting project. My team nominated me for an award, which I won, for decoding complexity and turning it into a simple, engaging user experience, and for delivering excellent work well within budget."],
+  ["p","I enjoyed making recommendations to the client and helping to elevate the user experience. It took me a little while to get my head around the user journeys at first, but once I did, I was able to demonstrate ways to improve the experience."]]]
+ ]},
+
+{id:"leanin",t:"Leanin",c:"Health tech",
+ hero:"PnbJvmi94e9yOaiehCfOqJIHb8",bg:"#3a47a8",cover:1,
+ d:"A web app I designed for a study exploring the relationship between NHS participants’ fitness and food intake, and how this affected their overall health.",
+ line:"A web app for an NHS metabolic research study",
+ tags:["Web app","NHS","Participant portal","Clinician portal"],type:"Participant and clinician web app",role:"Product Designer (UI design)",
+ meta:"Leanin case study: a participant portal and clinician portal for an NHS metabolic study, designed under tight timelines.",
+ g:["Stakeholders wanted a platform where clinicians and patients could run a metabolic study, including an online diary for patients to share their fitness and health data.","The project was defined before I joined, so I went straight into UI design and worked closely with engineers and project managers.","A participant portal and a clinician portal that digitalise a paper study."],
+ ch:[
+ ["Discover","The brief",[
+  ["h3","Background"],
+  ["p","An NHS trust wanted to run a research study with “Leanin”. I’ve used this name to keep the real one hidden while the project isn’t live yet."],
+  ["h3","The problem"],
+  ["p","The stakeholders wanted a platform for clinicians and patients to run a metabolic study. They needed an online diary for patients to share their fitness and health data, and wanted suggestions on layout and style."],
+  ["h3","Hypothesis"],
+  ["p","Patients would be able to update their food, drink and medical intake, link their smartwatch to the web app and fill out questionnaires. This would help clinicians see how intake and fitness level might affect overall health, and what could be contributing to body pain."],
+  ["p","Clinicians would be able to see the data patients provide, create and share questionnaires, and use their own dashboard."]]],
+ ["Deliver","Two portals, one study",[
+  ["p","Because of time constraints, the project had been defined before I got involved, so I jumped straight into UI design."],
+  ["h3","Participant portal"],
+  ["p","The participant portal gave participants access to:"],
+  ["ul",["A food diary, to log their food, drink and supplement intake","Tracking, to bring in their Withings and Fitbit data and link it to the portal","Questionnaires, to answer clinicians’ questions about their health and any changes they’d noticed"]],
+  ["gal",[["PnbJvmi94e9yOaiehCfOqJIHb8","Fig 1. Final UI designs for patients"],["SsgAcHSNFwIFEQazGWGq3e2VZM","Fig 2. Final UI designs for patients: home page before logging in"],["zcyFAAFlNS4BgMYrjGxk1854jE","Fig 3. Final UI designs for patients: food diary to update food intake, supplements and drinks","tall"],["URLQ7yS5mmbMtGChr82Pip13yqs","Fig 4. Final UI designs for patients: Withings page to sync their data to their Fitbit"]]],
+  ["h3","Clinician portal UI designs"],
+  ["p","Clinicians could:"],
+  ["ul",["Use their own dashboard","View participants’ food diaries","Create questionnaires for participants","See an overview of the Withings data participants collected with their smartwatches"]],
+  ["gal",[["bw9WGSHLpkI3kEnL918g0TKeI","Fig 5. Final UI designs for clinicians to view their patients’ data"],["Lpt3LbhZ4tmKYtdZOyUQErz2E","Fig 6. Withings data that allows clinicians to see passive data of their patients","tall"]]]]],
+ ["Iterate","Conclusion",[
+  ["p","This project taught me how important it is to stay in close contact with the development team, so I knew which features were possible and which needed tweaking to become reality."],
+  ["p","Going straight into UI design was a challenge, because I enjoy planning where elements can go, exploring other possible outcomes and maximising the experience for users. I’m still pleased with the outcome, and I know each client has different time constraints."],
+  ["p","It was great to work with a cross-functional team and find simple ways, with engineers and project managers, to digitalise the paper study. I enjoyed the problem solving on this project, and realised I really do enjoy working in a team."]]]
+ ]},
+
+{id:"monki",t:"Monki",c:"Fashion",
+ hero:"1ko8xHlHiRAsNAZDx0JwYfL9s",bg:"#4c6971",
+ d:"A redesign of the PDP and PLP pages to improve accessibility and layout, while keeping the urban feel Monki is known for.",
+ line:"Product pages that are more accessible and keep the urban attitude",
+ tags:["PDP","PLP","Accessibility","Red route analysis"],type:"PDP and PLP redesign",role:"Product Designer",
+ meta:"Monki redesign case study: competitor research, questionnaires, red route analysis and a prototype for more accessible product pages.",
+ g:["Online clothing sales were growing, so the site needed to be accessible to more users and more enjoyable to use, to increase sales.","Competitor research, questionnaires, a red route analysis with 6 participants, affinity mapping, crazy 8s and wireframes, then UI and a mobile prototype.","Redesigned product detail and listing pages. Next time I would allow more time to test the final designs."],
+ ch:[
+ ["Discover","Background and hypothesis",[
+  ["h3","Background"],
+  ["p","Monki is a clothing brand founded by H&M in 2006, with both physical stores and an online shop, which gives it more opportunities to make sales. Its target audience is 16–25 year olds, and it’s designed for people who describe their dress sense as ‘urban’. Since COVID-19, online shopping has become far more popular, and it’s expected to become more desirable than shopping in store."],
+  ["h3","The problem"],
+  ["p","Demand for buying clothes online has grown since March 2020, pushing e-commerce sites to invest in more user-friendly features to attract a wider range of customers. Monki’s site therefore needs to be accessible to more users and offer an enjoyable experience and interface, to increase sales."],
+  ["h3","Hypothesis"],
+  ["p","Improving Monki’s existing features and accessibility will increase user satisfaction on the website."],
+  ["h3","Competitor research"],
+  ["p","I researched Monki’s direct and indirect competitors to understand how they currently meet the needs of their users and stakeholders."],
+  ["fig","yUYBuB541jOW7sO1Ooqhi8BXg","Competitor set"],
+  ["gal",[["2HRBNNeTOQWAu7xZVmZ50WFc0","Fig 1. Competitor research of other direct fast fashion competitors and an indirect competitor","span"],["ubFj1PJRJA3wyn0lgr30jEw4vLQ","Fig 2. Visual notes I took whilst comparing Monki with other online stores. This enabled me to highlight features I could incorporate into the redesigns.","span"]]]]],
+ ["Define","Starting with the users",[
+  ["p","I wanted to start with the users and empathise with them, to understand their current problems and improve their experience."],
+  ["h3","Questionnaires"],
+  ["p","I asked a group of users a range of questions to find out what they like and dislike about the Monki website."],
+  ["gal",[["Wh34AICxolT9MUOeSW4YBwgnhY","","span"],["tuwLdmDyLWbLm6cviY6wKlg7FA","","span"],["c9n8zbKrvYVsIrQNixYT9q5TTo","Fig 3. Overview of research surveys about Monki","span"]]],
+  ["h3","Red route analysis"],
+  ["p","I ran a red route analysis to find out which features users found most and least important. Most users were familiar with how online shops work, so I chose to ask about features specific to Monki. It’s easy to assume the same features matter equally across all e-commerce sites, but some can stand out more because of the interface or experience."],
+  ["p","I asked 6 participants to rate how important each feature was to their shopping experience on Monki, from 1 (least important) to 5 (most important):"],
+  ["ul",["Filtering prices","Clothing filter","Menu","Videos of clothing / carousel","Other payment options"]],
+  ["fig","ehl2yZ7RVK5ONnUYBfnMoUhuBnQ","Fig 4. Red route analysis"],
+  ["h3","Summarising my findings"],
+  ["p","I used affinity mapping to summarise my findings and identify the main pain points, which guided where I started with the designs."],
+  ["fig","b2S5H94K8TfpZ3yQRRM0szISjs","Fig 5. Affinity mapping of findings"]]],
+ ["Ideate","Mindmaps to wireframes",[
+  ["p","At this stage I brainstormed potential design solutions through mindmaps and wireframes."],
+  ["gal",[["P7NHk5FEp16DzxIWTMboKDoUCEk","Fig 6. Mindmapping during ideation"],["PAxyoxullbbF85nE0Ik6jNZSRbM","Fig 7. Wireframes using the Crazy 8s method"],["6t1kqrZgxsmtDXAQ1LlwWBCVy7Y","Fig 8. Further wireframe planning","tall"],["k90I8xLmqAbNtzSSzr4OTdsTE","Fig 9. Mid-fidelity wireframe planning"]]]]],
+ ["Deliver","UI designs and prototype",[
+  ["h3","UI designs"],
+  ["p","Below are the completed Product Detail Pages (PDP) and Product Listing Pages (PLP), along with a video of the designs."],
+  ["gal",[["4DP9Y6pxZWPT3vtWO6UtPS8l0P8","Fig 10. UI designs, mobile"],["m3Mc0Hdg0PIv30HDmAqA1z68W4","Fig 11. UI designs, desktop"]]],
+  ["vimeo","https://vimeo.com/585492768","Fig 12. UI designs prototype (mobile)"],
+  ["fig","Pi2B6iUCtVSKiNvaxgAcQ0WL3Y","Fig 13. Business and user needs being met"],
+  ["h3","Pain points revisited"],
+  ["p","Below, I’ve highlighted the pain points in the original design and the changes I made."],
+  ["fig","lc1Yp54b5z4ALuqaY9kd702KM","Fig 14. Pain points and the solutions"],
+  ["fig","5XfvWbARn6yVI8Yc4is70kdu9dU.svg","Fig 15. Style guide","svg"]]],
+ ["Iterate","Reflections",[
+  ["p","Overall, this was an exciting project. I enjoyed improving Monki’s website while looking at competitors and seeing how Monki could be better. Next time, I’d like more time to test the final designs, to check that the solutions live up to what users expected."]]]
+ ]},
+
+{id:"liontrust",t:"Liontrust",c:"Finance",
+ hero:"QglYhnZiYR0BqAWg0IrAKkCtPmA",bg:"#4c6971",
+ d:"A reskin and information architecture update of a financial asset management website.",
+ line:"A reskin and a clearer information architecture",
+ tags:["Reskin","Information architecture","Accessibility","Design system"],type:"Reskin and information architecture update",role:"Product Designer",
+ meta:"Liontrust case study: a heuristic review, journey mapping and a reskin that simplified information architecture for a UK asset management group.",
+ g:["The website felt outdated against competitors, with unclear information architecture and disjointed journeys that hindered users from reaching their goals.","A heuristic review based on Nielsen Norman Group principles, journey mapping in Miro, and a reskin that reused and extended existing components.","Early client feedback was highly positive. A customer said the designs feel more premium and intuitive."],
+ ch:[
+ ["Discover","Problem and hypothesis",[
+  ["live","https://www.liontrust.com/","View the live site"],
+  ["h3","Background"],
+  ["p","Liontrust is a well-established UK asset management group that helps personal and professional investors grow their wealth. It offers a diverse range of funds and also works in partnership with a smaller independent fund."],
+  ["p","This meant the reskin and design updates had to account for the impact on that affiliated fund, keeping things consistent while respecting its own identity. Where possible we used the same components for efficiency, adding new ones only when necessary."],
+  ["h3","The problem"],
+  ["quote","The current website feels outdated next to its competitors. Its information architecture is unclear and its user journeys are disjointed, which makes navigation unintuitive and stops users from reaching their goals."],
+  ["h3","Hypothesis"],
+  ["p","Modernising the visual design, and simplifying the information architecture and user journeys, will make the site easier to use, so people can navigate more intuitively and reach their goals more efficiently."],
+  ["h3","Competitor research"],
+  ["p","I researched competitors to see how similar organisations meet user needs and expectations in the market. Key activities:"],
+  ["ul",["Ran a heuristic review of the client’s website and key competitors, based on Nielsen Norman Group usability principles","Mapped key user journeys in Miro to find friction points and opportunities","Turned the findings into actionable recommendations to guide the reskin and wider UX improvements"]],
+  ["fig","XcI9HFs4T6TiDeaSWWgHnMdkmtk","Fig 1. Competitor research and user journey analysis"],
+  ["h3","Identified experience gaps"],
+  ["h4","Insights Hub navigation"],
+  ["ul",["Navigation behaves inconsistently across the hub, which makes it less predictable","The navigation isn’t sticky, which increases effort and disorientation","Navigation states keep changing, so users struggle to retrace their steps"]],
+  ["h4","Insight cards"],
+  ["ul",["Some card designs fail WCAG AA contrast standards","Quick fixes, such as darker backgrounds and heavier fonts, don’t scale","There’s no systematic approach to accessibility across components"]],
+  ["h4","Fund lister"],
+  ["ul",["Filters and search take up the above-the-fold space, limiting how much content is visible","The CTA hierarchy is unclear and misses engagement opportunities","“All factsheets & literature” doesn’t clearly signal that it opens an overlay","Overlay content is dense and needs a lot of scrolling","Progressive disclosure, such as accordions, could improve the structure"]],
+  ["gal",[["SEES3V3hrPN2XMG60MrGXees","Fig 2. CRO analysis of an anchor page (Insights Hub)","span"],["qEutqNcHCNdwecqbGrJmRywq138","Fig 3. Insight cards would sometimes fail readability depending on the background image"],["0C7kErJZRy0RRKPeXCC2aVjCM","Fig 4. Existing fund lister pages could be maximised with the information architecture and layout"],["sRSD3y7gbRL9Z6wGPJQKYqoE","Fig 5. Existing articles lack depth and the layout is misaligned. They could promote more opportunities to continue the journey or prompt users to sign up to receive insights","tall"]]],
+  ["h3","Key findings"],
+  ["p","The research started to surface key usability challenges and areas where the experience wasn’t meeting user expectations."],
+  ["ul",["User journeys were often long and inefficient, creating unnecessary friction","Key information wasn’t always easy to find","On-page navigation became more inconsistent as users moved through the site, making it harder to stay oriented","Content lacked clarity and structure, so there was room to streamline it and improve signposting to increase conversion and improve the experience"]]]],
+ ["Define","Turning findings into questions",[
+  ["p","Once the research was done, the direction for improving the website and testing the hypothesis became clearer. Below are the key problems my team and I hoped to solve."],
+  ["fig","oUwCnNjGSDUJQze0shdI8JvMJk","Fig 6. How Might We statements and hypotheses","tall"]]],
+ ["Ideate","Information architecture ideas",[
+  ["p","The information architecture clearly needed work. Some of the key ideas we decided to adopt were:"],
+  ["ul",["Adding a sidebar for a more seamless experience","Using overlays where they make sense, to shorten user journeys","Making better use of conversion CTAs, such as “Follow fund”, to prompt sign-ups"]],
+  ["gal",[["H9xyKgeIMiXXaVtg2UiPb4KA","Fig 7. Insights Overview UX updates"],["zVaTKICNu00wA8QWFWO9nr4N6SA","Fig 8. Our Funds section UX updates"],["uhbpQD0HE7UeWe9ob8QGdQzVRHs","Fig 9. Fund Article UX designs","span"]]],
+  ["h3","Design system"],
+  ["p","We refined the design system by updating the colour tokens to improve accessibility and support dark mode across the website. The UI mostly reused existing components, and we designed a small number of new ones and added them to the system to keep things consistent and scalable."],
+  ["gal",[["y17L2v61AuTRHvzuon1IGH8ct8","Fig 10. Design system updates"],["kuA69dNtgtT9e2yZqXOGxcWk7Y","Fig 11. Design system updates"]]]]],
+ ["Deliver","UI designs and outcomes",[
+  ["h3","UI designs"],
+  ["p","Below are the completed designs, covering in particular:"],
+  ["ul",["The funds lister","The insights hub","The article page"]],
+  ["gal",[["cfCkRnrSHbuaebjz7GNvrfcy0","Fig 12. UI designs, Insights detail page","span"],["vAx5juMs1dD5dvR8GlYzWRr4yuI","Fig 13. UI designs, Insights overview","span"]]],
+  ["quote","These new designs feel a lot more premium and intuitive. It has allowed me to get to fund information quickly and I am clear on where I need to go.","Customer quote"],
+  ["h3","Aligning business and user needs"],
+  ["p","The research showed we needed to improve the experience to support both the business’s expectations and users’ needs."],
+  ["h4","Business outcomes"],
+  ["ul",["More conversion opportunities through clearer signposting and targeted CTAs, for example a “Follow fund” action in the fund lister","Efficient design evolution by reskinning and extending existing components, reducing the need for brand-new patterns","A more refined, premium UI that lives up to the expectations of a high-value audience"]],
+  ["h4","User outcomes"],
+  ["ul",["Less friction in navigation, thanks to simpler journeys and persistent elements such as a sticky sidebar","Clearer, more intuitive CTAs and visual cues, such as icons that indicate overlays and actions","More flexibility in how people consume content, with features like text-to-speech for on-the-go use","Smoother interactions, with overlays showing information in context and cutting unnecessary page changes"]]]],
+ ["Iterate","Reflections",[
+  ["p","This project was a valuable challenge that called for careful problem-solving and a pragmatic approach. Finding ways to reuse and extend existing components, especially rethinking the role of the sidebar in different contexts, gave us a more scalable, cohesive solution. It also brought me closer to engineering and made for a more joined-up team."],
+  ["p","The project is still in progress and nearing launch, and early client feedback has been very positive. They especially valued the strategic approach, including how the information architecture could scale across a smaller, related fund site that we also look after."],
+  ["p","I’m looking forward to seeing the final designs built and to evaluating their impact after launch."]]]
+ ]},
+
+{id:"uk-home-developer",t:"UK Home Developer",c:"Real estate",
+ hero:"VsYLPuIOtdW9BE0Bw6R02UphhRA",bg:"#ffffff",cover:1,
+ d:"A website redesign and app for a premium home developer, focused on home customisation.",
+ line:"A premium home customisation journey for web and mobile",
+ tags:["Website redesign","App design","Design system","Prototype"],type:"Home customisation: website and logged-in experience",role:"UX and UI lead",
+ meta:"UK Home Developer case study: one scalable options and choices journey for premium new-build homes, from customer interviews to a tokenised design system and prototype.",
+ g:["The digital experience didn’t match the premium showhomes. Customers relied on PDFs, and it wasn’t clear which selections were confirmed and which were still outstanding.","Customer interviews, competitor analysis, product catalogue analysis, and one unified journey supporting both Styles and Schemes.","A simple, consistent experience for a complex feature, with a mobile-first journey."],
+ ch:[
+ ["Discover","Closing the gap with the showhome",[
+  ["h3","Background"],
+  ["p","A residential property developer asked us to redesign both their website and their logged-in experience. The client has been anonymised because the project hasn’t launched yet."],
+  ["p","Their main challenge was a disconnect between channels. Their showhomes and sales suites delivered a high-end, premium experience, but their digital presence didn’t match that quality or sophistication."],
+  ["h3","User research"],
+  ["p","I interviewed several existing customers to understand their problems and how a redesigned website could solve them. I also analysed direct competitors to find gaps in the client’s website and rate its performance against the industry standard."],
+  ["h3","Key focus"],
+  ["p","I focused on elevating the home customisation experience across the website, and on a carefully considered mobile-first journey. The mobile designs mattered especially, as they became an appealing, interactive part of the mobile app experience."],
+  ["gal",[["tFI7oDNY9eqi4F4dUpGYlvn5H5g","Fig 1. The client’s heuristic score amongst others"],["ya69aCuoUPNx8ljGWB5Cuq9QFQI","Fig 2. Customer interviews I led to understand user pain points with the existing logged-in experience"]]],
+  ["h3","Research findings"],
+  ["p","Once the research was done, I identified several key pain points for this project to address, including:"],
+  ["ul",["An uninspiring home customisation experience for customers buying premium homes","Heavy reliance on PDFs instead of an engaging, interactive experience","No clarity on which selections were confirmed and which were still outstanding"]]]],
+ ["Define","One journey, two purchasing models",[
+  ["p","After the initial research, I focused on defining the key problems and finding opportunities to improve the logged-in experience."],
+  ["p","The goal was a premium digital experience that felt exclusive, welcoming and personal for returning customers. The existing journey lacked clarity and didn’t reflect the high-quality experience customers received in person, so it needed a more thoughtful, refined approach that matched the brand’s luxury positioning."],
+  ["h3","Requirements overview"],
+  ["p","The project focused on redesigning the product selection journey for new-build homes as a single, scalable experience supporting two purchasing models:"],
+  ["ul",["Styles: a predefined design style applied across the whole home","Schemes: individual product selections made for specific rooms and features"]],
+  ["p","The existing experience treated these as separate journeys, which meant inconsistent navigation, more maintenance and a fragmented experience. The aim was a unified flow that worked for both models and stayed intuitive however complex a property’s available choices were."],
+  ["gal",[["cMOv37RJIxPwN41LP8BGV5rdNBo","Fig 3. The customer lifecycle, completed in collaboration with our team and the client","span"],["Wq7Iq33banHUetbWwzsDXY9phw","Fig 4. Affinity map and customer journeys with user pain points and emotions across the key journey in the lifecycle","span"],["pva4uLemSWRjryfplBgdBky1o","Fig 5. Existing logged-in portal"],["gr3PR39H47kIcVaDA1V2wJXzRw","Fig 6. Existing options and choices as PDFs"]]],
+  ["h3","Understanding the complexity"],
+  ["p","Before designing, I analysed the product catalogue to understand how customers would interact with the available options. The data varied significantly across developments:"],
+  ["ul",["About one-third of properties had configurable choices","Some developments offered only a property-wide style, others only room-level schemes, and some offered both","The largest configurations had more than a dozen product categories, with up to eighteen selectable options"]],
+  ["quote","Designing around an “average” property would fail. The interface needed to be driven by the data structure itself and stay usable at any scale."],
+  ["h3","Unified journey"],
+  ["p","Schemes and Styles both start in the same journey and share the same navigation patterns, so users don’t have to learn two different interfaces depending on the type of property they’re buying. Rather than designing separate experiences, I was asked to establish a single interaction model that could adapt to both selection types."]]],
+ ["Ideate","UX designs",[
+  ["p","With a clearer direction on the issues, my team and I moved into design. We used a design system that would also work for the UI designs, by making sure every element was tokenised."],
+  ["h3","Styles"],
+  ["p","In this data model, a home is a pre-designed collection of colours, styles and themes that is applied to the entire home."],
+  ["gal",[["GBcBDjYz2xPUi8OA5QKc65exZVg","Fig 7. Styles options and choices wireframes"],["ewG62F7MqbukKBHRjTGDBWCxQ","Fig 8. Styles options and choices wireframes"],["kQkstBvUtNxh0r3xUPGuJv68ws","Fig 9. Styles options and choices wireframes","span"]]],
+  ["h3","Schemes"],
+  ["p","This structure lets users choose from a selection of options, with multiple hotspots they can view and edit to suit their preferences."],
+  ["p","One challenge was that hotspots didn’t always have many items to choose from, but we had to cater for up to 7 of them. The average user might only see 3 hotspots with items to choose from, while others could have up to 7, so the designs had to cope with that on desktop and mobile."],
+  ["fig","SO2RVqDGOJTswpNRF60oJJlVk","Fig 10. Schemes options and choices wireframes"],
+  ["h3","Design system"],
+  ["p","We set up dedicated Figma themes for both wireframing and high-fidelity UI, which made the move from UX concepts to visual design smoother. Working across UX and UI gave me oversight of the design tokens, keeping the two stages consistent."],
+  ["p","Our goal was to keep the client’s existing visual identity, with a slight lift, so we left the core colour palette largely unchanged. With stakeholder approval, we added accessible colour variants to better support contrast requirements and the evolving design system."],
+  ["p","To avoid redundancy, I reused existing components wherever possible rather than creating single-use variants. Options & Choices was the main exception: its interaction patterns, and the way content was structured and pulled from Content Hub, needed a set of bespoke components, which made it the most distinctive addition to the design system."],
+  ["fig","hLb8jAjy871t2Wvc8PYCkfmgmU","Fig 11. Variables set up in the design system"]]],
+ ["Deliver","UI designs and prototype",[
+  ["h3","Styles"],
+  ["p","During the design phase, the client told us each home would have either Styles or Schemes, not a mix of both. I had already designed the UX for Styles to separate every room, in case some rooms used Schemes. That simplified the design and let us keep the two distinct while sharing mostly the same functionality. The flow works like this:"],
+  ["ul",["The customer starts by selecting “Get started” on the Options & Choices overview","They browse the available property styles and pick one to explore room by room","In each room, hotspots can be switched on or off. On desktop, hotspot numbers and labels appear together. On mobile, numbered hotspots appear on the image, with matching labels listed below","They move freely between rooms using the persistent room navigation","They save the style for the property once they’re happy with it","If they try to leave without saving, a confirmation modal prompts them to save or exit","Once saved, a style can be viewed again at any time, discarded (with a toast notification confirming it), or confirmed as the final selection","Confirming a style is permanent and removes all the other style options"]],
+  ["h4","Summary and confirmation"],
+  ["ul",["All selections appear on a summary page, grouped into completed and incomplete choices","Customers can edit or discard selections (with a toast confirmation), or jump straight to the first incomplete room with the “Make choices” action","A dismissible sticky reminder banner appears when the selection deadline is within 14 days","Selecting “Confirm choices” opens a final confirmation modal","Once confirmed, selections are locked and can’t be edited"]],
+  ["gal",[["qXwZPTjUCkp7iF7KxBiENY4cPN8","Fig 12. Options and choices UI designs"],["1TgjyuhMQHnnHCwSFNgHM0BN4","Fig 13. Options and choices UI designs"]]],
+  ["h3","Schemes"],
+  ["ul",["The customer starts by selecting “Make choices” on the Options & Choices overview. This entry screen only shows on the first visit; once any selection has been made, customers go straight to the summary page","They can move freely between rooms, or follow the “Next” CTA for a guided, step-by-step journey","Each room shows numbered interactive hotspots for the configurable items","Selecting a hotspot opens a side panel with the available product options, with a default option pre-selected and highlighted","Product choices sit in accordion panels. Selecting a new hotspot expands its accordion and collapses previously opened ones, to keep focus","Hotspots show progress clearly: a tick means the selection is confirmed, red means the default option is unchanged, and grey means nothing has been selected","Customers can undo a selection by deselecting its hotspot","Selecting “Save & exit” opens a confirmation modal to prevent accidental loss of progress. After saving, a confirmation message appears before the customer returns to the summary page"]],
+  ["h4","Summary and confirmation"],
+  ["p","The summary works the same way as in Styles: selections are grouped into completed and incomplete choices, can be edited or discarded with a toast confirmation, and are locked once confirmed. A dismissible sticky banner appears when the selection deadline is within 14 days."],
+  ["gal",[["nDSmDNWHKKECPYmAWKyBclMUfxE","Fig 14. Options and choices UI designs"],["U3WAZjkbeRsI6j7MxrYpRULTc68","Fig 15. Options and choices UI designs"]]],
+  ["video","Fig 16. Schemes options and choices prototype"],
+  ["fig","jS5JGQ6s1BMRcMl7a4r91rUetM","Existing challenges and the new experience"]]],
+ ["Iterate","Conclusion",[
+  ["p","This project gave me the chance to lead the UX and UI for a complex feature and create a simple, consistent experience for customers. The original idea included changing the property’s colours and finishes in real time as customers made selections, but that was outside the project budget. Instead, we focused on an intuitive journey that made it easy to explore options, make choices and feel confident before confirming them."],
+  ["p","This feature was both challenging and rewarding. Designing the UX first let me solve the core user problems before bringing everything together in the final UI. I especially enjoyed designing the mobile experience and creating a journey that felt clear, premium and easy to use across devices. The project reinforced how important it is to balance user needs, business goals and technical constraints to deliver the best possible experience."]]]
+ ]}
+];
+var ORD=["uk-home-developer","liontrust","uk-pensions-group","monki","cared4","leanin"];
+P.sort(function(a,b){return ORD.indexOf(a.id)-ORD.indexOf(b.id)});
+/* ---------- helpers ---------- */
+var app=document.getElementById("main"),BD=document.querySelector('meta[name=description]').content,BT="Elizabeth (Litola) | UX Product Designer";
+function esc(s){return String(s).replace(/&/g,"&amp;").replace(/"/g,"&quot;").replace(/</g,"&lt;")}
+function pad(i){return (i+1<10?"0":"")+(i+1)}
+function pidx(id){return P.findIndex(function(p){return p.id===id})}
+function fig(id,cap,mod,inGal){var svg=/\.svg$/.test(id),src=svg?"img/"+id:I(id),dk=svg?" dk":"";return '<figure'+(mod==="span"?' class="span"':'')+'><button class="fig'+dk+(mod==="tall"?" tall":"")+'" data-src="'+src+'" data-cap="'+esc(cap||"")+'" aria-label="Enlarge image'+(cap?': '+esc(cap):'')+'"><img src="'+src+'" alt="'+esc(cap||"Project figure")+'" loading="lazy" decoding="async"></button>'+(cap?'<figcaption>'+esc(cap)+'</figcaption>':'')+'</figure>'}
+function list(a){return '<ul>'+a.map(function(x){return '<li>'+esc(x)+'</li>'}).join("")+'</ul>'}
+function blk(b){var k=b[0];
+ if(k==="h3")return '<h3>'+esc(b[1])+'</h3>';if(k==="h4")return '<h4>'+esc(b[1])+'</h4>';
+ if(k==="p")return '<p>'+esc(b[1])+'</p>';if(k==="ul")return list(b[1]);
+ if(k==="quote")return '<blockquote class="pull" style="margin-left:0;margin-right:0">'+esc(b[1])+(b[2]?'<cite>'+esc(b[2])+'</cite>':'')+'</blockquote>';
+ if(k==="fig")return fig(b[1],b[2],b[3]);
+ if(k==="gal")return '<div class="gal">'+b[1].map(function(f){return fig(f[0],f[1],f[2])}).join("")+'</div>';
+ if(k==="live")return '<a class="live" href="'+b[1]+'" target="_blank" rel="noopener noreferrer">'+esc(b[2])+' <span aria-hidden="true">↗</span></a>';
+ if(k==="video")return '<figure><div class="vid"><video src="home-prototype.mp4" poster="home-prototype-poster.jpg" muted loop playsinline controls preload="metadata" data-auto="1" aria-label="Schemes options and choices prototype"></video></div><figcaption>'+esc(b[1])+'</figcaption></figure>';
+ if(k==="vimeo")return '<figure><a class="vimeo" href="'+b[1]+'" target="_blank" rel="noopener noreferrer"><div><span class="eyebrow">Prototype video</span><h3>Watch the mobile prototype on Vimeo</h3></div><span class="ar" aria-hidden="true">↗</span></a><figcaption>'+esc(b[2])+'</figcaption></figure>';
+ return ""}
+function cta(){return '<section class="cta rv"><span class="eyebrow">Let’s chat</span><h2>Have something complex that needs to feel <em>simple</em>?</h2><div class="btns"><button type="button" class="btn fill" data-reveal aria-expanded="false">Send a message</button><div class="mail" hidden><a href="mailto:elizabeth.olo@outlook.com">elizabeth.olo@outlook.com</a><button type="button" class="btn sm" data-copy>Copy</button></div><a class="btn" href="https://www.linkedin.com/in/elizabeth-o-a770a9210/" target="_blank" rel="noopener noreferrer">View my LinkedIn <span aria-hidden="true">↗</span></a></div></section>'}
+document.addEventListener("click",function(e){var b=e.target.closest("[data-reveal]");if(b){var m=b.parentNode.querySelector(".mail");m.hidden=false;b.hidden=true;b.setAttribute("aria-expanded","true");m.querySelector("a").focus();return}
+ var c=e.target.closest("[data-copy]");if(c){var t="elizabeth.olo@outlook.com",done=function(){c.textContent="Copied";setTimeout(function(){c.textContent="Copy"},1800)};try{navigator.clipboard.writeText(t).then(done,done)}catch(x){done()}}});
+/* ---------- views ---------- */
+function reel(){return '<div class="reel rise" style="animation-delay:.3s" role="region" aria-roledescription="carousel" aria-label="Project reel"><div class="rtxt">'+P.map(function(p,i){return '<div class="rs" data-i="'+i+'"><span class="eyebrow"><span class="idx">'+pad(i)+'</span>'+p.c+'</span><h2>'+p.t+'</h2><p>'+p.line+'</p><a class="more" href="#'+p.id+'" tabindex="-1">View case study <span aria-hidden="true">→</span></a></div>'}).join("")+'</div><div class="rimg" aria-hidden="true">'+P.map(function(p,i){return '<div class="ri'+(p.cover?' cover':'')+'" style="--bg-c:'+p.bg+'" data-i="'+i+'"><img src="'+I(p.hero)+'" alt="" decoding="async"></div>'}).join("")+'</div><div class="rctl"><button class="pp" id="pp" aria-label="Pause reel">❚❚</button><div class="segs">'+P.map(function(p,i){return '<button class="seg" data-i="'+i+'" aria-label="Show '+esc(p.t)+'"><i></i></button>'}).join("")+'</div></div></div>'}
+function card(p,i){return '<article class="pc"><a class="pv rv'+(p.cover?' cover':'')+'" style="--bg-c:'+p.bg+'" href="#'+p.id+'" aria-label="View the '+esc(p.t)+' case study"><img src="'+I(p.hero)+'" alt="'+esc(p.t)+' project mockup" loading="lazy" decoding="async"></a><div class="pi rv"><span class="eyebrow"><span class="idx">'+pad(i)+'</span>'+p.c+'</span><h3>'+p.t+'</h3><p>'+p.d+'</p><ul class="chips">'+p.tags.map(function(t){return '<li>'+t+'</li>'}).join("")+'</ul><a class="more" href="#'+p.id+'">Read the case study <span aria-hidden="true">→</span></a></div></article>'}
+function home(){return '<div class="hero"><div class="wrap"><div class="hero-top"><div class="hero-copy"><span class="eyebrow rise">Elizabeth · UX Product Designer</span><h1 class="rise" style="animation-delay:.08s">Turning complexity into <em>simplicity</em>.</h1><p class="lead rise" style="animation-delay:.16s">I leverage strategy and AI to turn complexity into simplicity and great experiences, across health tech, finance, real estate and fashion.</p><div class="btns rise" style="animation-delay:.24s"><a class="btn fill" href="Elizabeth-Oloruntola-UX-UI-Designer-CV-2026.pdf" download="Elizabeth-Oloruntola-UX-UI-Designer-CV-2026.pdf" type="application/pdf">View my CV</a><a class="btn" href="#work">See my work ↓</a></div></div><div class="phone rise" style="animation-delay:.3s"><img src="img/phone-real.webp" alt="Mobile screen from the UK Home Developer options and choices journey, showing a room with selectable hotspots and wall colour choices" width="654" height="1302" decoding="async"></div></div>'+reel()+'</div></div><div class="wrap">'+
+'<div class="proof rv"><div><b>12</b><span>wards in the Cared4 pilot across England</span></div><div><b>6 mo</b><span>of fortnightly workshops with young people</span></div><div><b>5</b><span>retirement journeys consolidated into one experience</span></div><div><b>Award</b><span>nominated by my team for decoding complexity and delivering UK Pensions Group well within budget</span></div></div>'+
+'<section id="work"><div class="sec-h"><h2 class="rv">Selected work</h2><span class="mono">'+P.length+' case studies</span></div><div class="work">'+P.map(card).join("")+'</div></section>'+
+'<section><div class="proc"><div class="rv"><span class="eyebrow">Process</span><h2 style="margin:12px 0 22px">The same five stages, every time.</h2><p class="lead">Each case study follows my design process, so you can see the problem, how I worked through it, and where it landed.</p><ul class="stages"><li>Discover</li><li>Define</li><li>Ideate</li><li>Deliver</li><li>Iterate</li></ul></div><img class="rv" src="'+I("tnsgudQRskit5YBdyJ06d5Iu0")+'" alt="My design process: Discover, Define, Ideate, Deliver, Iterate" loading="lazy"></div></section>'+
+'<section><div class="sec-h"><h2 class="rv">In motion</h2><span class="mono">Prototypes</span></div><div class="motion"><div class="vid rv"><video src="home-prototype.mp4" poster="home-prototype-poster.jpg" muted loop playsinline controls preload="metadata" data-auto="1" aria-label="UK Home Developer Schemes options and choices prototype"></video></div><p class="vcap">UK Home Developer: Schemes options and choices prototype. <a class="more" href="#uk-home-developer">Read the case study <span aria-hidden="true">→</span></a></p><a class="vimeo rv" href="https://vimeo.com/585492768" target="_blank" rel="noopener noreferrer"><div><span class="eyebrow">Monki</span><h3>Watch the mobile prototype on Vimeo</h3></div><span class="ar" aria-hidden="true">↗</span></a></div></section>'+
+'<section><div class="sec-h"><h2 class="rv">How I work</h2></div><div class="three"><div class="box rv"><h3>Empathy at the heart</h3><p>I want the products I design to be usable and to improve people’s lives.</p></div><div class="box rv"><h3>Users and stakeholders</h3><p>I balance the needs of users with the needs of stakeholders.</p></div><div class="box rv"><h3>Psychology</h3><p>My background shapes how I research, listen and design, and I currently work as a UX Product Designer.</p></div></div></section>'+testi()+''+cta()+'</div>'}
+function testi(){var L="https://www.linkedin.com/in/elizabeth-o-a770a9210/";return '<section class="testi" aria-labelledby="rec-h"><div class="sec-h"><h2 class="rv" id="rec-h">Recommendations</h2><span class="mono">From LinkedIn</span></div><figure class="rec rv"><blockquote><p>Lizzie is a delight to work with. I line managed Lizzie for almost two years at Mindwave Ventures. She is a dedicated UX designer with a clear talent for UX research in particular.</p><p>Lizzie is helpful, friendly, polite and mature. She is highly professional with clients, empathetic with research participants and skilled at designing and facilitating co-design workshops. She is able to demystify complexity and work calmly to deadline, in spite of ambiguity to present clear and concise research insights to aid service design direction.</p><p>She has knowledge of GDS standards and a good understanding of building accessible services. She has come a long way in a short time frame and I am sure the future holds great things for her. I would not hesitate to recommend Lizzie for any UX/UR role.</p></blockquote><figcaption><img src="img/ilsa.webp" alt="" width="56" height="56" loading="lazy"><span><b>Ilsa Parry</b><small>Lead UCD Consultant, design strategist &amp; communities of practice advocate. Line managed me at Mindwave Ventures.</small><small>6 December 2023, via LinkedIn</small></span></figcaption></figure><div class="rec-more rv"><p>Scroll to the bottom of my LinkedIn profile to see more recommendations.</p><div class="btns"><a class="btn fill" href="'+L+'" target="_blank" rel="noopener noreferrer">View more recommendations <span aria-hidden="true">↗</span></a></div></div></section>'}
+function about(){return '<div class="wrap"><section style="padding-top:64px"><span class="eyebrow">About</span><div class="about" style="margin-top:20px"><div><h1 class="rise" style="font-size:clamp(40px,6vw,84px)">Meaningful, user-friendly <em>digital experiences</em>.</h1></div><div class="rv"><p class="lead">I’m a UX Product Designer who enjoys creating meaningful, user-friendly digital experiences.</p><p>Empathy is at the heart of my work as I balance the needs of users and the needs of stakeholders. Part of what makes design enjoyable for me is knowing that the products I create can improve people’s lives.</p><p>I have a background in Psychology and Education, and I currently work as a UX Product Designer. When I’m not designing, I’m writing fictional stories, watching psychological thrillers, reading or mentoring young people.</p></div></div></section><section style="padding-top:0"><div class="sec-h"><h2 class="rv">Beyond the screen</h2></div><div class="media"><a class="mc rv" href="https://www.youtube.com/watch?v=uuUP8RW0D78" target="_blank" rel="noopener noreferrer"><img src="'+I("OKRtl9lU6sZuBcs0HxNSxBCs59I")+'" alt="Cleo Sol, Self" loading="lazy"><div><small>What I’m listening to</small><b>Cleo Sol, Self ↗</b></div></a><div class="mc rv"><img src="'+I("jUyFEYzRCE4DJCugq5lDux69qc")+'" alt="Paradise" loading="lazy"><div><small>What I’m watching</small><b>Paradise on Disney+</b></div></div><div class="mc rv"><img src="'+I("zefBElhnG5TVnuAXrTxgp0CE00")+'" alt="Start With Yourself by Emma Grede" loading="lazy"><div><small>What I’m reading</small><b>Start With Yourself by Emma Grede</b></div></div></div><div class="sec-h" style="margin:56px 0 18px"><h2 class="rv" style="font-size:clamp(26px,3vw,38px)">Apps I’ve been using recently</h2></div><div class="apps rv"><span><img src="'+I("25mcWPRiOq3VJkUXcUBwdO3rs")+'" alt="">Miro</span><span><img src="'+I("RFiWSGf2i74e9fwUaQ5mW1jaJE")+'" alt="">Claude</span></div></section>'+testi()+''+cta()+'</div>'}
+function cs(p,i){var n=P[(i+1)%P.length];
+ return '<div class="wrap"><a class="back" href="#work">← All work</a><div class="cs-head"><span class="eyebrow rise">'+p.c+'</span><h1 class="rise">'+p.t+'</h1><p class="lead rise">'+p.d+'</p></div><div class="cs-hero rise'+(p.cover?' cover':'')+'" style="--bg-c:'+p.bg+'"><img src="'+I(p.hero)+'" alt="'+esc(p.t)+' project mockup" decoding="async"></div>'+
+ '<div class="glance rv"><div><h4>The problem</h4><p>'+esc(p.g[0])+'</p></div><div><h4>What I did</h4><p>'+esc(p.g[1])+'</p></div><div><h4>The result</h4><p>'+esc(p.g[2])+'</p></div></div>'+
+ '<div class="cs"><aside class="rail"><dl class="facts"><dt>Sector</dt><dd>'+p.c+'</dd><dt>Project</dt><dd>'+p.type+'</dd><dt>Role</dt><dd>'+p.role+'</dd><dt>Focus</dt><dd>'+p.tags.join(", ")+'</dd></dl><ol class="toc" aria-label="Chapters">'+p.ch.map(function(c,k){return '<li><a href="#" data-k="'+k+'"><i>'+pad(k)+'</i>'+c[0]+'</a></li>'}).join("")+'</ol></aside><div>'+
+ p.ch.map(function(c,k){return '<div class="chap" data-k="'+k+'"><h2><small>'+c[0]+'</small>'+esc(c[1])+'</h2>'+c[2].map(blk).join("")+'</div>'}).join("")+
+ '</div></div><a class="next rv" href="#'+n.id+'"><span class="eyebrow">Next case study</span><h3>'+n.t+' →</h3><p style="margin:0;color:var(--muted)">'+esc(n.line)+'</p></a>'+cta()+'</div>'}
+/* ---------- router ---------- */
+var reelT=null;
+function stopReel(){if(reelT){clearInterval(reelT);reelT=null}}
+function startReel(){var rs=[].slice.call(document.querySelectorAll(".rs")),ri=[].slice.call(document.querySelectorAll(".ri")),sg=[].slice.call(document.querySelectorAll(".seg i")),pp=document.getElementById("pp");if(!rs.length)return;
+ var DUR=5600,cur=0,t=0,paused=matchMedia("(prefers-reduced-motion: reduce)").matches,last=performance.now();
+ function show(i){cur=i;t=0;rs.forEach(function(e,k){e.classList.toggle("on",k===i);e.querySelector("a").tabIndex=k===i?0:-1});ri.forEach(function(e,k){e.classList.toggle("on",k===i)})}
+ show(0);if(paused)pp.textContent="▶";
+ reelT=setInterval(function(){var now=performance.now(),dt=now-last;last=now;if(!paused)t+=dt;if(t>=DUR)show((cur+1)%rs.length);sg.forEach(function(s,k){s.style.setProperty("--p",k<cur?1:k===cur?Math.min(1,t/DUR):0)})},60);
+ document.querySelectorAll(".seg").forEach(function(b){b.onclick=function(){show(+b.dataset.i)}});
+ pp.onclick=function(){paused=!paused;pp.textContent=paused?"▶":"❚❚";pp.setAttribute("aria-label",paused?"Play reel":"Pause reel")};
+ var box=document.querySelector(".reel");box.addEventListener("mouseenter",function(){box._h=1});
+ box.addEventListener("focusin",function(){if(!paused){paused=true;pp.textContent="▶";pp.setAttribute("aria-label","Play reel")}})}
+function setMeta(t,d){document.title=t;document.querySelector('meta[name=description]').content=d;var o=document.querySelector('meta[property="og:title"]');if(o)o.content=t;var od=document.querySelector('meta[property="og:description"]');if(od)od.content=d}
+function render(){var h=location.hash.slice(1),i=pidx(h),v="home";stopReel();
+ if(i>-1){app.innerHTML=cs(P[i],i);v="work";setMeta(P[i].t+" case study | Elizabeth, UX Product Designer",P[i].meta)}
+ else if(h==="about"){app.innerHTML=about();v="about";setMeta("About | Elizabeth (Litola), UX Product Designer","UX Product Designer with a background in Psychology and Education, designing for health tech, finance, real estate and fashion.")}
+ else{app.innerHTML=home();setMeta(BT,BD);startReel()}
+ document.querySelectorAll("nav a").forEach(function(a){a.removeAttribute("aria-current");if(a.dataset.n===(h==="work"?"work":v))a.setAttribute("aria-current","page")});
+ if(h==="work"){var w=document.getElementById("work");if(w)w.scrollIntoView({behavior:"instant"})}else window.scrollTo({top:0,left:0,behavior:"instant"});
+ var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.06});
+ document.querySelectorAll(".rv").forEach(function(e){io.observe(e)});
+ var vo=new IntersectionObserver(function(es){es.forEach(function(e){var v=e.target;if(v.dataset.auto&&!matchMedia("(prefers-reduced-motion: reduce)").matches){if(e.isIntersecting){v.play&&v.play().catch(function(){})}else{v.pause&&v.pause()}}})},{threshold:.35});
+ document.querySelectorAll("video[data-auto]").forEach(function(v){vo.observe(v)});
+ var chs=[].slice.call(document.querySelectorAll(".chap")),tl=[].slice.call(document.querySelectorAll(".toc a"));
+ if(chs.length){var so=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){var k=e.target.dataset.k;tl.forEach(function(a){a.classList.toggle("on",a.dataset.k===k)})}})},{rootMargin:"-30% 0px -60% 0px"});chs.forEach(function(c){so.observe(c)});
+  tl.forEach(function(a){a.onclick=function(ev){ev.preventDefault();chs[+a.dataset.k].scrollIntoView({behavior:"smooth"})}})}}
+/* ---------- lightbox ---------- */
+var lb=document.getElementById("lb"),lbi=lb.querySelector("img"),lbp=lb.querySelector("p"),L=[],li=0;
+function lshow(k){li=(k+L.length)%L.length;lbi.src=L[li].dataset.src;lbi.alt=L[li].dataset.cap||"";lbp.textContent=L[li].dataset.cap||""}
+function lopen(el){L=[].slice.call(document.querySelectorAll(".fig"));lshow(L.indexOf(el));lb.classList.add("on");lb.querySelector(".x").focus()}
+function lclose(){lb.classList.remove("on");lbi.removeAttribute("src")}
+app.addEventListener("click",function(e){var f=e.target.closest(".fig");if(f)lopen(f)});
+lb.querySelector(".x").onclick=lclose;lb.querySelector(".pv2").onclick=function(){lshow(li-1)};lb.querySelector(".nx").onclick=function(){lshow(li+1)};
+lb.addEventListener("click",function(e){if(e.target===lb)lclose()});
+addEventListener("keydown",function(e){if(!lb.classList.contains("on"))return;if(e.key==="Escape")lclose();if(e.key==="ArrowLeft")lshow(li-1);if(e.key==="ArrowRight")lshow(li+1)});
+addEventListener("hashchange",render);
+addEventListener("scroll",function(){var m=document.documentElement.scrollHeight-innerHeight;document.getElementById("bar").style.width=(m>0?scrollY/m*100:0)+"%"},{passive:true});
+document.getElementById("yr").textContent=new Date().getFullYear();
+document.addEventListener("click",function(e){var a=e.target.closest("a[download]");if(!a||a.hasAttribute("data-plain"))return;e.preventDefault();
+ var url=a.getAttribute("href"),name=a.getAttribute("download")||"download",plain=function(){var t=document.createElement("a");t.href=url;t.download=name;t.setAttribute("data-plain","1");document.body.appendChild(t);t.click();t.remove()};
+ var C=window.claude;if(!C||!C.use){plain();return}
+ C.use("downloads").then(function(d){if(!d){plain();return}
+  return fetch(url).then(function(r){return r.blob()}).then(function(b){return d.save({filename:name,data:b})})}).catch(function(err){if(err&&err.code==="declined")return;plain()})});
+try{history.scrollRestoration="manual"}catch(x){}
+var tb=document.createElement("button");tb.type="button";tb.className="totop";tb.setAttribute("aria-label","Back to top");tb.innerHTML="↑";document.body.appendChild(tb);
+function toTop(){window.scrollTo({top:0,left:0,behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"instant":"smooth"})}
+tb.onclick=toTop;
+document.addEventListener("click",function(e){var a=e.target.closest("[data-top]");if(a){e.preventDefault();toTop()}});
+addEventListener("scroll",function(){tb.classList.toggle("on",scrollY>700)},{passive:true});
+render();
+</script>
+
+</body></html>
